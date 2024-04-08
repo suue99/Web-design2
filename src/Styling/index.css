@@ -1,0 +1,45 @@
+@font-face {
+    font-family: Gothic;
+    src: url(/Users/suue/Desktop/web-design2/src/Fonts/DidactGothic-Regular.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Gothic;
+}
+
+.navbar{
+    font-family: Gothic;
+    background-color: rgba(214, 232, 255, 1); /* Darker background */
+    display: flex;
+    align-items: center;  /* Center items vertically */
+    justify-content: flex-end; /* Distribute elements evenly */
+    width: 100%; 
+    padding: 15px 20px;
+    
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 10px;
+   
+}
+
+.navbar ul li a {
+    color: rgba(39, 0, 93, 1);                
+    text-decoration: none;      
+    display: block;              /* Make links occupy full width of list item */
+    padding: 8px 12px;           /* Padding within the link area */
+    transition: background-color 0.3s ease; }
+
+
+  
+.navbar ul li a:hover {
+    background-color: rgba(219, 170, 255, 1);
+
+}
