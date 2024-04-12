@@ -1,6 +1,6 @@
 
 
-function Products() {
+function Signup() {
     return (
       <div>
         HI THIS IS THE Products PAGE
@@ -9,4 +9,4 @@ function Products() {
     );
   }
 
-  export default Products
+  export default Signup

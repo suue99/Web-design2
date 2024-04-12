@@ -7,14 +7,14 @@
     margin: 0px;
     padding: 0px;
     font-family: Gothic;
+    
 }
 
 .navbar{
     font-family: Gothic;
-    background-color: rgba(214, 232, 255, 1); /* Darker background */
-    display: flex;
-    align-items: center;  /* Center items vertically */
-    justify-content: flex-end; /* Distribute elements evenly */
+    background-color: rgba(214, 232, 255, 1); 
+    align-items: center;  
+    justify-content: flex-end;
     width: 100%; 
     padding: 15px 20px;
     
@@ -31,7 +31,7 @@
 }
 
 .navbar ul li a {
-    color: rgba(39, 0, 93, 1);                
+    color: #27005d;                
     text-decoration: none;      
     display: block;              /* Make links occupy full width of list item */
     padding: 8px 12px;           /* Padding within the link area */
@@ -40,6 +40,74 @@
 
   
 .navbar ul li a:hover {
-    background-color: rgba(219, 170, 255, 1);
+    background-color: #dbaaff;
 
 }
+
+
+.logo {
+
+   height: 40px;
+   max-width: 30%;
+   margin-left: -10px;
+} 
+
+/*.toppage-container{
+    background-image: url('/Users/suue/Desktop/web-design2/src/images/bgd-image.png'); 
+    background-size: cover; Makes image cover the entire area 
+    background-repeat: no-repeat;  Prevents image repetition
+}*/
+.main-heading{
+    font-size: 60px;
+    font-family: Gothic;
+}
+
+.home-subtitle{
+    font-family: Gothic;
+    font-size: 30px;
+}
+
+.search-container { 
+    text-align: center; 
+   
+}
+
+.search-input {
+    margin-top: 120px;
+    width: 600px; 
+    padding: 10px; 
+    border: 2px solid #ccc; 
+    border-radius: 10px;  
+}
+
+.search-container button {
+    padding: 10px;
+    background-color: #27005d;;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border: 2px solid; 
+    width: 100px;
+    border-radius: 10px;  
+  }
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) { /* Adjust breakpoint as needed */
+    .navbar ul { /* Target your navbar's list */
+      flex-direction: column; /* Change to vertical layout */
+      align-items: center;
+    }
+  
+    .navbar ul li { /* Optional: May need to adjust item width */
+      width: 100%; 
+   
+    }
+  }
+  
