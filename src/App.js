@@ -1,14 +1,13 @@
 
 import { BrowserRouter, Route , Routes } from "react-router-dom";
-import Home from "./components/Home";
-import About from "./components/About";
-import Signup from "./components/Signup";
-import Navbar from "./components/Navbar";
-import Login from "./components/Login";
-import Search from "./components/Search";
-import Homesearch from "./components/Homesearch";
-import Results from "./components/Results";
-
+import Home from "./components/Homepage/Home";
+import About from "./components/About-page/About";
+import SignupForm from "./components/Signup-page/SignupForm";
+import Navbar from "./components/Homepage/Navbar";
+import Login from "./components/Signup-page/Login";
+import Contact from "./components/Contact-page/Contact";
+import Homesearch from "./components/Homepage/Homesearch";
+import Results from "./components/Search-results/Results";
 
 function App() {
   
@@ -20,9 +19,9 @@ function App() {
     <Routes>
       <Route path = "/" element = {<Home />} />
       <Route path = "/About" element = {<About />} />
-      <Route path = "/Signup" element = {<Signup />} />
+      <Route path = "/Signup" element = {<SignupForm />} />
       <Route path = "/Login" element = {<Login />} />
-      <Route path = "/Search" element = {<Search />} />
+      <Route path = "/Contact" element = {<Contact />} />
       <Route path="/" element={<Homesearch />} />
       <Route path="/results" element={<Results />} />
     </Routes>

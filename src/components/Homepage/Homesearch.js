@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import { useNavigate } from 'react-router-dom';
-
+import { FaSearch } from "react-icons/fa";
+import '/Users/suue/Desktop/web-design2/src/components/Homepage/homepage.css'
 
 function Homesearch() {
 
@@ -26,7 +27,7 @@ function Homesearch() {
         className="search-input" value={searchValue} onChange={handleInputValue}  
         />
 
-        <button onClick={handleClick}> Search  </button>
+        <button onClick={handleClick}> <FaSearch /> </button>
     </div>
     );
   }

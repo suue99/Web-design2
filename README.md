@@ -69,3 +69,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 Webdesign2
+
+Code sources: Freecodecamp.org , https://www.locofy.ai/blog/react-form-validation , https://codepen.io/ZachSaucier/pen/jOwNvO , https://freefrontend.com/css-code-examples/ ,

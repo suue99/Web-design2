@@ -1,0 +1,162 @@
+@font-face {
+    font-family: Gothic;
+    src: url(/Users/suue/Desktop/web-design2/src/Fonts/DidactGothic-Regular.ttf);
+}
+
+body {
+    background-color: rgba(228, 241, 255, 1)
+}
+
+.navbar{
+    font-family: Gothic;
+    padding: 15px 20px;
+    
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 25px;
+   
+}
+
+.navbar ul li a {
+    color: #27005d;                
+    text-decoration: none;  
+    position: relative;    
+    display: flex; 
+    padding: 8px 10px;   
+    transition: background-color 0.3s ease;
+
+}
+.navbar ul li a::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #27005d;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+  }
+
+.navbar ul li a:hover::before{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+  
+.navbar ul li a:hover {
+    background-color: rgba(228, 241, 255, 1);
+}
+
+
+.logo {
+   height: 40px;
+   max-width: 30%;
+   margin-left: -10px;
+} 
+
+.toppage-container{
+   background-color: rgba(228, 241, 255, 1);
+   height: 500px;
+}
+
+.main-heading{
+    font-size: 60px;
+    font-family: Gothic;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.search-container { 
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+
+.search-input {
+    width: 600px; 
+    padding: 20px; 
+    border: 1px solid #ccc;  
+    border-right: none;      
+    border-radius: 5px 0 0 5px; 
+    
+}
+
+.search-container button {
+    padding: 0 15px;
+    background-color: #27005d; 
+    color: white;
+    border-left: none; 
+    cursor: pointer;
+    border: 1px solid #ccc; 
+    width: 100px;
+    border-radius: 0 5px 5px 0;
+  }
+
+.home-subtitle{
+    font-family: Gothic;
+    font-size: 30px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.steps-container { 
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px; 
+}
+
+.steps-container {
+    display: flex;
+    justify-content: space-around; 
+}
+
+.mini-heading {
+    margin-bottom: 20px;
+}
+
+.step-subtitle{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.step {
+    text-align: center;
+}
+
+
+.step img {
+    max-width: 100%;
+    height: 250px; 
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) { /* Adjust breakpoint as needed */
+    .steps-container {
+      flex-direction: column; /* Stack items vertically */
+    }
+
+    
+    .step {
+        text-align: center;
+        margin-top: 80px;
+    }
+
+
+  }
