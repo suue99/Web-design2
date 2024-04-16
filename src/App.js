@@ -8,6 +8,7 @@ import Login from "./components/Signup-page/Login";
 import Contact from "./components/Contact-page/Contact";
 import Homesearch from "./components/Homepage/Homesearch";
 import Results from "./components/Search-results/Results";
+import Footer from "./components/Homepage/Footer";
 
 function App() {
   
@@ -25,8 +26,12 @@ function App() {
       <Route path="/" element={<Homesearch />} />
       <Route path="/results" element={<Results />} />
     </Routes>
+    
     </BrowserRouter>
+
+    <Footer/>
    
+
     </div>
   
   );
