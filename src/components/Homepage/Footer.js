@@ -1,14 +1,28 @@
-import '/Users/suue/Desktop/web-design2/src/components/Homepage/homepage.css'
+import '/Users/suue/Desktop/web-design2/src/components/Homepage/footer.css'
+import { FaFacebook , FaInstagram , FaTwitter , FaGithub } from "react-icons/fa";
+
+
 
 function Footer () {
+    const year = new Date().getFullYear();
 
     return (
         
-        <footer className='footer'>
+        <footer class="footer-container">
 
-        <h1> This is the footer </h1>
+			<div class="footer-right">
 
-        </footer>
+               <ul>
+                <li> <FaFacebook/> </li>
+                <li> <FaInstagram/> </li>
+                <li> <FaTwitter/> </li>
+                <li> <FaGithub/> </li> 
+                </ul>
+			</div>
+
+          <div className='copyright'> {`Copyright © FindMyPhysio ${year}`}</div> 
+
+		</footer>
     )
 
 }

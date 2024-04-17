@@ -11,76 +11,74 @@ function SignupForm() {
 
       return (
         <form onSubmit={handleSubmit (onSubmit)}>
-          <div className="form-items">
+          
+        <div className="form-container">
+          <div className='window'>
+            <div className='overlay'></div>
+              <div className='content'>
+              <div className='welcome'>Hello There!</div>
 
-          <div className="title">Welcome</div>
-          <div className="subtitle">Let's create your account!</div>
+              <div className='subtitle'>Create your account.</div>
 
-          <div className='input-field if1'>
-            <input
-              type="text"
-              id="firstname"
-              className='input'
-              placeholder=" "
-              {...register("firstName", { required: true })} />
-              {errors.firstName && alert ('first name is required')}
-              <div class="cut"></div>
-              <label for ="firstname" className="placeholder">First name</label>
+
+                  <div className='input-fields'>
+      
+                      <input
+                        type="text"
+                        id="firstname"
+                        className='input-line full-width'
+                        placeholder=" First Name "
+                        {...register("firstName", { required: true })} />
+                        {errors.firstName && <p className='error-message'> *first name is required</p>}
+                    
+
+
+                      <input
+                        type="text"
+                        id="lastname"
+                        className='input-line full-width'
+                        placeholder=" Last Name "
+                        {...register("lastName", { required: true })} />
+                        {errors.lastName && <p className='error-message'> *last name is required </p>}
+
+
+                      <input
+                        type="text"
+                        id="email"
+                        className='input-line full-width'
+                        placeholder=" Email "
+                        {...register("email", { required: true, pattern: /^\S+@\S+$/i })} />
+                        {errors.email && <p className='error-message'> *Enter a valid email </p>}
+          
+
+                      <input
+                        type="text"
+                        id="practicelocation"
+                        className='input-line full-width'
+                        placeholder=" Practice and Location "
+                        {...register("practicelocation", { required: true })} />
+                        {errors.practiceLocation &&  <p className='error-message'> *location is required </p>}
+
+
+                      <input
+                        type="text"
+                        id="password"
+                        className='input-line full-width'
+                        placeholder=" Password "
+                        {...register("password", { required: true, pattern: /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,15}$/  })} />
+                        {errors.password && <p className='error-message'> *Enter a valid password of at least one upper case
+                        letter, one number and one special character </p> }
+                       
+                      </div>
+
+                        <button  className='ghost-round full-width' type='submit'>Create Account</button>
+      
+
+                 </div>  
             </div>
-
-
-            <div className='input-field if2'>
-            <input
-              type="text"
-              id="lastname"
-              className='input'
-              placeholder=" "
-              {...register("lastName", { required: true })} />
-              {errors.lastName && alert ('last name is required')}
-              <div class="cut"></div>
-              <label for ="lasttname" className="placeholder">Last name</label>
-            </div>
-
-            <div className='input-field if3'>
-            <input
-              type="text"
-              id="email"
-              className='input'
-              placeholder=" "
-              {...register("email", { required: true, pattern: /^\S+@\S+$/i })} />
-              {errors.email && alert ('email is required')}
-              <div class="cut"></div>
-              <label for ="email" className="placeholder">Email</label>
-            </div>
-
-            <div className='input-field if4'>
-            <input
-              type="text"
-              id="practicelocation"
-              className='input'
-              placeholder=" "
-              {...register("practicelocation", { required: true })} />
-              {errors.practiceLocation &&  alert ('location is required')}
-              <div class="cut"></div>
-              <label for ="practiceLocation" className="placeholder">Practice</label>
-            </div>
-
-            <div className='input-field if5'>
-            <input
-              type="text"
-              id="password"
-              className='input'
-              placeholder=" "
-              {...register("password", { required: true, minLength: { value: 8, message: "Password must be at least 8 characters" } })} />
-              {errors.password && alert ('password is required and must be valid')}
-              <div class="cut"></div>
-              <label for ="password" className="placeholder">Password</label>
-            </div>
-
-            <button type="text" class="submit">submit</button>
-         
-          </div>
-        </form>
+         </div>
+       
+      </form>
     );
   }
 

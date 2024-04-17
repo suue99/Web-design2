@@ -70,4 +70,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 Webdesign2
 
-Code sources: Freecodecamp.org , https://www.locofy.ai/blog/react-form-validation , https://codepen.io/ZachSaucier/pen/jOwNvO , https://freefrontend.com/css-code-examples/ ,
+Code sources: Freecodecamp.org , https://www.locofy.ai/blog/react-form-validation , https://codepen.io/ZachSaucier/pen/jOwNvO , https://freefrontend.com/css-code-examples/ , https://www.upbeatcode.com/react/how-to-implement-a-footer-component-in-react/,
+https://codepen.io/slstudios/pen/mJqjeP,
+https://www.freecodecamp.org/news/add-form-validation-in-react-app-with-react-hook-form/, https://codepen.io/chilliconcode/pen/YyRKYZ, https://codepen.io/Tbgse/pen/JXrJGX
