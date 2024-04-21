@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import "/Users/suue/Desktop/web-design2/src/Styling/index.css";
+import "/Users/suue/Desktop/web-design2/src/index.css";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
