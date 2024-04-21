@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ReactComponent as Logo } from '/Users/suue/Desktop/web-design2/src/images/updated findmyphysio-high-resolution-logo-transparent.svg'; 
+import { ReactComponent as Logo } from '/Users/suue/Desktop/web-design2/src/logo.svg'; 
 import '/Users/suue/Desktop/web-design2/src/components/Homepage/homepage.css'
 import { CgProfile } from "react-icons/cg";
 
