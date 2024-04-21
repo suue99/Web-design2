@@ -4,23 +4,28 @@
 }
 
 body {
-    background-color: rgba(228, 241, 255, 1)
+    background-color: rgba(228, 241, 255, 1);
+    font-family: Gothic;
+    margin: 0px;
 }
 
 .navbar{
     font-family: Gothic;
-    padding: 15px 20px;
+    padding: 15px 15px;
+    display: flex;
+    flex-direction: row;
     
 }
 
 .navbar ul{
     list-style: none;
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .navbar ul li {
-    margin: 0 25px;
-    
+    margin: 0 30px;
    
 }
 
@@ -59,7 +64,7 @@ body {
 }
 
 .logo {
-   height: 40px;
+   height: 60px;
    max-width: 30%;
    margin-left: -10px;
 } 
@@ -112,6 +117,7 @@ body {
         font-size: 30px;
         margin-top: 40px;
         text-align: center;
+        padding: 15px;
     }
 
     .steps-container { 
@@ -145,18 +151,9 @@ body {
 
     .footer{
         background-color: #27005d;
-        min-height: 200px;
+        min-height: 180px;
         margin-top: 70px;
     }
-
-
-
-
-
-
-
-    
-
 
 
 
@@ -173,7 +170,22 @@ body {
         margin-top: 80px;
     }
 
+    .navbar{
 
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .navbar ul{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .logo{
+        display: none;
+    }
   }
 
   

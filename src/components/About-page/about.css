@@ -3,7 +3,6 @@
     font-family: Gothic;
 }
 
-
 .colour-block {
     
     background: #e4f1ff;
@@ -50,10 +49,10 @@
 
 
   .para2{
-    font-size: 20px;
+    font-size: 18px;
     display: flex;
     flex-direction: column;
-    height: 20px;
+    height: 18px;
     text-align: center;
     color: #27005d;
     

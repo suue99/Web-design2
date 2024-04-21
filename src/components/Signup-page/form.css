@@ -167,7 +167,7 @@ button:focus {
   flex-flow: column;
   box-shadow: 0px 15px 50px 10px rgba(0, 0, 0, 0.2);
   box-sizing: border-box;
-  height: 680px;
+  height: 720px;
   width: 360px;
   background: #27005d;
   border-radius: 30px;
@@ -187,12 +187,15 @@ button:focus {
   flex-flow: column;
   box-shadow: 0px 15px 50px 10px rgba(0, 0, 0, 0.2);
   box-sizing: border-box;
-  height: 430px;
+  height: 500px;
   width: 360px;
   background: #27005d;
   border-radius: 30px;
 }
-
+.login-container{
+  margin-top: -60px;
+  
+}
 .overlay-login{
   background: linear-gradient(#B993D6,#27005d );
   opacity: 0.85;
@@ -208,7 +211,7 @@ button:focus {
   background: linear-gradient(#B993D6,#27005d );
   opacity: 0.85;
   filter: alpha(opacity=85);
-  height: 560px; 
+  height: 580px; 
   position: absolute;
   width: 360px;
   z-index: 1;

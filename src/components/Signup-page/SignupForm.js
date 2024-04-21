@@ -11,7 +11,7 @@ function SignupForm() {
   
 
       return (
-        <form onSubmit={handleSubmit (onSubmit)}>
+       
           
         <div className="form-container">
           <div className='window'>
@@ -20,7 +20,7 @@ function SignupForm() {
               <div className='welcome'>Hello There!</div>
 
               <div className='subtitle'>Create your account.</div>
-
+              <form onSubmit={handleSubmit (onSubmit)}>
 
                   <div className='input-fields'>
       
@@ -73,16 +73,19 @@ function SignupForm() {
                       </div>
 
                         <button  className='ghost-round full-width' type='submit' >Create Account </button>
-
-                        <p>Have an account already?</p>
+                        </form>
+                       
+                       <div className='login-container'> <p>Have an account already?</p>
 
                       <button  className='ghost-round full-width' type='submit' > <Link to ="/login"> Log In </Link></button>
+
+                      </div>
 
                  </div>  
             </div>
          </div>
        
-      </form>
+     
     );
   }
 
