@@ -1,4 +1,4 @@
-import '/Users/suue/Desktop/web-design2/src/components/Contact-page/contact.css'
+import '../Contact-page/contact.css'
 
 
 function Contact () {

@@ -1,7 +1,7 @@
 FINDMYPHYSIO
-[Add a one or two-sentence summary explaining the core purpose of your website]
+This is an app that would p
 
-Live Demo: [Link to your live deployment]
+Live Demo: [link]
 
 Project Description
 In this section (roughly 500 words), provide a thorough overview of your interactive website. Consider addressing:

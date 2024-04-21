@@ -1,4 +1,4 @@
-import '/Users/suue/Desktop/web-design2/src/components/About-page/about.css'
+import '../About-page/about.css'
 function About() {
     return (
      

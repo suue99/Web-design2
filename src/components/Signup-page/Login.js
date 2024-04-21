@@ -1,5 +1,5 @@
 import {useForm} from 'react-hook-form'
-import '/Users/suue/Desktop/web-design2/src/components/Signup-page/form.css'
+import '../Signup-page/form.css'
 
 function Login() {
 
