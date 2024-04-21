@@ -6,7 +6,7 @@
 
 .error-message{
   font-size: 11px;
-  color: red;
+  color: black;
 
 }
 input {
@@ -38,21 +38,40 @@ button:focus {
   background: none;
   border: 1px solid rgba(255, 255, 255, 0.65);
   border-radius: 25px;
-  color: rgba(255, 255, 255, 0.65);
+  color: white;
   -webkit-align-self: flex-end;
   -ms-flex-item-align: end;
   align-self: flex-end;
-  font-size: 19px;
-  font-size: 1.2rem;
-  font-family: roboto;
-  font-weight: 300;
+  font-size: 20px;
   line-height: 2.5em;
   margin-top: 5px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   -webkit-transition: all .2s ease;
   transition: all .2s ease;
   font-family: Gothic;
 
+}
+
+.ghost-round a {
+  text-decoration: none;
+  color: white;
+}
+
+.ghost-round-login{
+  cursor: pointer;
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  border-radius: 25px;
+  color: white;
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  font-size: 20px;
+  line-height: 2.5em;
+  margin-top: 50px;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+  font-family: Gothic;
 }
 
 .ghost-round:hover {
@@ -67,12 +86,9 @@ button:focus {
   margin-bottom: 10px;
   line-height: 2.4em;
   color: #fff;
-  font-family: roboto;
-  font-weight: 300;
-  letter-spacing: 0px;
+  font-family: Gothic;
   letter-spacing: 0.02rem;
-  font-size: 19px;
-  font-size: 1.2rem;
+  font-size:20px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.65);
   -webkit-transition: all .2s ease;
   transition: all .2s ease;
@@ -83,7 +99,7 @@ button:focus {
 }
 
 .input-fields {
-  margin-top: 25px;
+  margin-top: 20px;
 
 }
 
@@ -116,6 +132,7 @@ button:focus {
   -ms-flex-flow: column;
   flex-flow: column;
   z-index: 5;
+  font-family: Gothic;
 
 }
 
@@ -137,12 +154,6 @@ button:focus {
 
 }
 
-.menu {
-  background: rgba(0, 0, 0, 0.2);
-  width: 100%;
-  height: 50px;
-}
-
 .window {
   z-index: 100;
   color: #fff;
@@ -156,24 +167,53 @@ button:focus {
   flex-flow: column;
   box-shadow: 0px 15px 50px 10px rgba(0, 0, 0, 0.2);
   box-sizing: border-box;
-  height: 560px;
+  height: 680px;
   width: 360px;
-  background: #fff;
+  background: #27005d;
   border-radius: 30px;
  
-  
 }
 
-.overlay {
-  background: -webkit-linear-gradient(#8CA6DB, #B993D6);
-  background: linear-gradient(#8CA6DB, #B993D6);
+.window-login{
+  z-index: 100;
+  color: #fff;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  box-shadow: 0px 15px 50px 10px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  height: 430px;
+  width: 360px;
+  background: #27005d;
+  border-radius: 30px;
+}
+
+.overlay-login{
+  background: linear-gradient(#B993D6,#27005d );
   opacity: 0.85;
   filter: alpha(opacity=85);
-  height: 560px;
+  height: 400px; 
   position: absolute;
   width: 360px;
   z-index: 1;
   border-radius: 30px;
+
+}
+.overlay {
+  background: linear-gradient(#B993D6,#27005d );
+  opacity: 0.85;
+  filter: alpha(opacity=85);
+  height: 560px; 
+  position: absolute;
+  width: 360px;
+  z-index: 1;
+  border-radius: 30px;
+
 }
 
 

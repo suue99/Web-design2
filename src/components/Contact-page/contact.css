@@ -1,7 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 
-form { max-width:420px; margin:50px auto; }
+form { 
+  max-width:420px; margin:50px auto;
+
+ }
 
 .form-heading{
     text-align: center;
@@ -10,33 +13,27 @@ form { max-width:420px; margin:50px auto; }
 
 
 .text-input {
-  color:black;
   font-family: Gothic;
-  font-weight:500;
-  font-size: 18px;
+  font-size: 20px;
   border-radius: 5px;
   line-height: 22px;
-  background:none;
+  color: white;
   border:2px solid #27005d;
   transition: all 0.3s;
   padding: 13px;
   margin-bottom: 15px;
   width:100%;
   box-sizing: border-box;
-  outline:0;
+  background-color: #27005d;
 }
 
-.contact-container{
-  color: #27005d;
-}
-
-.feedback-input:focus { border:2px solid grey }
+.feedback-input:focus { border:2px solid black }
 
 textarea {
   height: 150px;
   line-height: 150%;
   resize:vertical;
-  color: black;
+  
 }
 
 .contact-button{
@@ -54,7 +51,7 @@ textarea {
   padding-bottom:10px;
   transition: all 0.3s;
   margin-top:-4px;
-  font-weight:700;
+
 }
 
 .contact-button:hover { background:rgba(145, 175, 212, 1); }

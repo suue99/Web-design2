@@ -10,13 +10,16 @@ import Homesearch from "./components/Homepage/Homesearch";
 import Results from "./components/Search-results/Results";
 import Footer from "./components/Homepage/Footer";
 
+
+
+
 function App() {
   
   return (
     <div>
     <BrowserRouter> 
     <Navbar />
-
+   
     <Routes>
       <Route path = "/" element = {<Home />} />
       <Route path = "/About" element = {<About />} />
@@ -25,16 +28,19 @@ function App() {
       <Route path = "/Contact" element = {<Contact />} />
       <Route path="/" element={<Homesearch />} />
       <Route path="/results" element={<Results />} />
+
     </Routes>
     
     </BrowserRouter>
+
+   
 
     <Footer/>
    
 
     </div>
   
-  );
-}
+  )
+};
 
 export default App;

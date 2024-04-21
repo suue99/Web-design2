@@ -22,11 +22,11 @@ Use code with caution.
 Installation:
 Bash
 cd [your-project-repo]
-npm install 
+npm install
 Use code with caution.
 Development:
 Bash
-npm start 
+npm start
 Use code with caution.
 Challenges and Learning
 Summarize one or two significant challenges you encountered and how you addressed them.
@@ -51,7 +51,6 @@ Images/Screenshots: Add visuals to give potential users a better sense of your w
 Accessibility: Highlight any accessibility features you've specifically implemented.
 Contact: If you'd like users to reach you with feedback or questions, consider adding a contact section.
 
-
 Code sources: Freecodecamp.org , https://www.locofy.ai/blog/react-form-validation , https://codepen.io/ZachSaucier/pen/jOwNvO , https://freefrontend.com/css-code-examples/ , https://www.upbeatcode.com/react/how-to-implement-a-footer-component-in-react/,
 https://codepen.io/slstudios/pen/mJqjeP,
-https://www.freecodecamp.org/news/add-form-validation-in-react-app-with-react-hook-form/, https://codepen.io/chilliconcode/pen/YyRKYZ, https://codepen.io/Tbgse/pen/JXrJGX
+https://www.freecodecamp.org/news/add-form-validation-in-react-app-with-react-hook-form/, https://codepen.io/chilliconcode/pen/YyRKYZ, https://codepen.io/Tbgse/pen/JXrJGX, https://codepen.io/Tbgse/pen/JXrJGX, https://www.youtube.com/watch?v=sWVgMcz8Q44&t=29s

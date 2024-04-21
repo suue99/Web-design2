@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { FaSearch } from "react-icons/fa";
 import '/Users/suue/Desktop/web-design2/src/components/Homepage/homepage.css'
 
+
 function Homesearch() {
 
     const [searchValue, setSearchValue] = useState ('');
@@ -20,6 +21,7 @@ function Homesearch() {
             {console.log('search field is empty');
         }
     };
+
     return (
     <div className="search-container">
     
@@ -28,6 +30,7 @@ function Homesearch() {
         />
 
         <button onClick={handleClick}> <FaSearch /> </button>
+
     </div>
     );
   }

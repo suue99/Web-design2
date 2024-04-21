@@ -1,5 +1,6 @@
 import {useForm} from 'react-hook-form'
 import '/Users/suue/Desktop/web-design2/src/components/Signup-page/form.css'
+import { Link } from 'react-router-dom';
 
 function SignupForm() {
 
@@ -71,8 +72,11 @@ function SignupForm() {
                        
                       </div>
 
-                        <button  className='ghost-round full-width' type='submit'>Create Account</button>
-      
+                        <button  className='ghost-round full-width' type='submit' >Create Account </button>
+
+                        <p>Have an account already?</p>
+
+                      <button  className='ghost-round full-width' type='submit' > <Link to ="/login"> Log In </Link></button>
 
                  </div>  
             </div>
