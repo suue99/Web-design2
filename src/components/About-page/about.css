@@ -92,3 +92,27 @@
     transform: rotate(180deg);
   }
 
+
+
+
+
+  @media screen and (max-width: 740px)  {
+    .white-block {
+      background:#fff;
+      width:60%;
+      padding:7% 20% 10% 20%;
+      color:#369A7E;
+      height: 390px;
+      margin-bottom: -60px;
+    }
+
+
+  .para3{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    text-align: center;
+    color: #27005d;
+    }
+  }

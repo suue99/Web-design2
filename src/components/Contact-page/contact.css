@@ -55,3 +55,11 @@ textarea {
 }
 
 .contact-button:hover { background:rgba(145, 175, 212, 1); }
+
+
+@media screen and (max-width: 760px) {
+  form { 
+    padding: 30px;
+  
+   }
+}

@@ -159,11 +159,17 @@ body {
 
 
 
-@media (max-width: 768px) {
+    @media screen and (max-width: 600px)  {
     .steps-container {
       flex-direction: column; 
     }
 
+    body {
+        background-color: rgba(228, 241, 255, 1);
+        font-family: Gothic;
+        margin: 0px;
+      
+    };
     
     .step {
         text-align: center;
@@ -174,18 +180,36 @@ body {
 
         display: flex;
         flex-direction: column;
+       
         
     }
 
     .navbar ul{
         list-style: none;
-        display: flex;
-        flex-direction: row;
+        display: inline-block;
+        
     }
+
+    .toppage-container{
+        background-color: rgba(228, 241, 255, 1);
+        height: 400px;
+      
+     }
 
     .logo{
         display: none;
     }
+
+    .main-heading{
+        padding: 30px;
+        font-size: 30px;
+    }
+
+    .search-container{
+        padding: 20px;
+    }
+
+
   }
 
   
