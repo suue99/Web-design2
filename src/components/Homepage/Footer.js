@@ -1,4 +1,4 @@
-import '/Users/suue/Desktop/web-design2/src/components/Homepage/footer.css'
+import '../Homepage/footer.css'
 import { FaFacebook , FaInstagram , FaTwitter , FaGithub } from "react-icons/fa";
 
 
