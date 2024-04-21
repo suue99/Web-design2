@@ -159,9 +159,9 @@ body {
 
 
 
-@media (max-width: 768px) { /* Adjust breakpoint as needed */
+@media (max-width: 768px) {
     .steps-container {
-      flex-direction: column; /* Stack items vertically */
+      flex-direction: column; 
     }
 
     
