@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FaSearch } from "react-icons/fa";
-import '/Users/suue/Desktop/web-design2/src/components/Homepage/homepage.css'
+import '../Homepage/homepage.css'
 
 
 function Homesearch() {

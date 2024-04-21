@@ -1,6 +1,6 @@
 import Homesearch from "./Homesearch";
 import Steps from "./Steps";
-import '/Users/suue/Desktop/web-design2/src/components/Homepage/homepage.css'
+import '../Homepage/homepage.css'
 
 function Home() {
     return (

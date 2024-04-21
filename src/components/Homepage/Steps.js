@@ -1,8 +1,8 @@
 import React from  'react';
-import image1 from '/Users/suue/Desktop/web-design2/src/components/Homepage/Images/vecteezy_woman-pointing-at-web-browser-online-search-engine-bars_5631396.jpg';
-import image2 from '/Users/suue/Desktop/web-design2/src/components/Homepage/Images/vecteezy_doctor-appointment-concept-in-flat-design_8923832.jpg'
-import image3 from '/Users/suue/Desktop/web-design2/src/components/Homepage/Images/vecteezy_the-patient-is-undergoing-orthopedic-rehabilitation-with-a_24049875.jpg';
-import '/Users/suue/Desktop/web-design2/src/components/Homepage/homepage.css'
+import image1 from '../Homepage/Images/vecteezy_woman-pointing-at-web-browser-online-search-engine-bars_5631396.jpg';
+import image2 from '../Homepage/Images/vecteezy_doctor-appointment-concept-in-flat-design_8923832.jpg'
+import image3 from '../Homepage/Images/vecteezy_the-patient-is-undergoing-orthopedic-rehabilitation-with-a_24049875.jpg';
+import '../Homepage/homepage.css'
 
 function Steps () {
     return (
