@@ -1,3 +1,4 @@
+//​[4] 
 import '../Homepage/footer.css'
 import { FaFacebook , FaInstagram , FaTwitter , FaGithub } from "react-icons/fa";
 
