@@ -22,7 +22,8 @@ User privacy is a core concern in 'FindMy Physio's' design. A transparent privac
 
 The Value of User-Centered Research
 
-A user-centered approach profoundly shaped the development of 'FindMy Physio'. Personas, questionnaires, and wireframing were some of the techniques that were used to get direct information about the wants and needs of possible users. The main results of this study showed how important it is to have specialised search, clear information presentation, and easy access. Because of this, these factors became guiding principles in the design and growth of the platform's features.
+A user-centered approach profoundly shaped the development of 'FindMy Physio'. Personas, questionnaires, and wireframing were some of the techniques that were used to get direct information about the wants and needs of possible users. The main results of this study showed how important it is to have specialised search, clear information presentation, and easy access. Because of this, these factors became guiding principles in the design and growth of the platform's features. 
+I included a photo of my colour pallete in the (/src/images)
 
 Problem, Audience, and Key Features
 
