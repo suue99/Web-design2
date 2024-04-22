@@ -36,5 +36,17 @@ Problems and Lessons Learned
 
 Even though the project was successful, I ran into problems along the way. It turned out to be harder than expected to combine the maps and reviews APIs, so more study and testing were needed. To help with this in some ways, I added a test API that shows how these features can be used. I learned how important it is to be flexible in development and how useful iterative design is—even a simple implementation can show how it works and get feedback for future changes.
 
-Code sources: Freecodecamp.org , https://www.locofy.ai/blog/react-form-validation , https://codepen.io/ZachSaucier/pen/jOwNvO , https://freefrontend.com/css-code-examples/ , https://www.upbeatcode.com/react/how-to-implement-a-footer-component-in-react/,
-https://www.freecodecamp.org/news/add-form-validation-in-react-app-with-react-hook-form/, https://codepen.io/chilliconcode/pen/YyRKYZ, https://codepen.io/Tbgse/pen/JXrJGX, https://codepen.io/Tbgse/pen/JXrJGX, https://www.youtube.com/watch?v=sWVgMcz8Q44&t=29s
+Code sources:
+​​[1]	“Make a Search Bar with React (with API Calls) | Beginners Tutorial - YouTube.” Accessed: Apr. 22, 2024. [Online]. Available: https://www.youtube.com/watch?v=sWVgMcz8Q44&t=29s 
+
+​[2]	Tobias, “Daily UI #001 Sign Up.” Accessed: Apr. 22, 2024. [Online]. Available: https://codepen.io/Tbgse/pen/JXrJGX 
+
+​[3]	chilli con code, “Responsive Scalloped Page Dividers (using CSS gradients).” Accessed: Apr. 22, 2024. [Online]. Available: https://codepen.io/chilliconcode/pen/YyRKYZ 
+
+​[4]	“How to Implement a Footer Component in React | Upbeat Code.” Accessed: Apr. 22, 2024. [Online]. Available: https://www.upbeatcode.com/react/how-to-implement-a-footer-component-in-react/ 
+
+​[5]	“CSS Examples.” Accessed: Apr. 22, 2024. [Online]. Available: https://freefrontend.com/css-code-examples/ 
+
+​[6]	Nitin, “A Complete Guide to Form Validations in React.” Feb. 27, 2023. Accessed: Apr. 22, 2024. [Online]. Available: https://www.locofy.ai/blog/react-form-validation 
+
+​ ​
