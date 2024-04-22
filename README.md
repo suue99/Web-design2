@@ -2,6 +2,8 @@ FINDMYPHYSIO
 This is an app that is aimed at helping people find the nearest physiotherapist to them.
 
 Live Demo: [https://main--findmyphysio.netlify.app/]
+User Research Form: https://forms.gle/WxA79DZ2qf7ecXJk9
+
 
 Project Description/
 "FindMyPhysio" is meant to make it easier to find physiotherapy services. Because "FindMy Physio" knows how hard it can be for people to find specialised healthcare providers, it focuses on being quick and easy to use. The platform's main features are an easy-to-use search function, filters that can be changed (like region, specialty, etc.), and user profiles for both patients and physiotherapists, which make the experience smooth and helpful.
