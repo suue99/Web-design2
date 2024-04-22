@@ -37,5 +37,4 @@ Problems and Lessons Learned
 Even though the project was successful, I ran into problems along the way. It turned out to be harder than expected to combine the maps and reviews APIs, so more study and testing were needed. To help with this in some ways, I added a test API that shows how these features can be used. I learned how important it is to be flexible in development and how useful iterative design is—even a simple implementation can show how it works and get feedback for future changes.
 
 Code sources: Freecodecamp.org , https://www.locofy.ai/blog/react-form-validation , https://codepen.io/ZachSaucier/pen/jOwNvO , https://freefrontend.com/css-code-examples/ , https://www.upbeatcode.com/react/how-to-implement-a-footer-component-in-react/,
-https://codepen.io/slstudios/pen/mJqjeP,
 https://www.freecodecamp.org/news/add-form-validation-in-react-app-with-react-hook-form/, https://codepen.io/chilliconcode/pen/YyRKYZ, https://codepen.io/Tbgse/pen/JXrJGX, https://codepen.io/Tbgse/pen/JXrJGX, https://www.youtube.com/watch?v=sWVgMcz8Q44&t=29s
